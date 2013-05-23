@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_set" >
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_title" >
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="wifi热点"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/layout_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_search" 
+        android:layout_below="@id/layout_title">
+        <EditText android:id="@+id/edit_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_search"
+        android:hint="搜索"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:paddingLeft="35dip" />
+        
+        <Button android:id="@+id/btn_dingwei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_dingwei"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"/>
+        <Button android:id="@+id/btn_qiehuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_qiehuan"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/btn_dingwei"
+        android:layout_marginRight="5dip"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layout_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_nearby_menu" 
+        android:layout_alignParentBottom="true">
+    </RelativeLayout>
+    <LinearLayout android:id="@+id/layout_info"
+        android:layout_width="fill_parent"
+        android:layout_height="140dip"
+        android:background="@color/color_white" 
+        android:layout_above="@id/layout_menu"
+        android:orientation="vertical">
+        <TextView android:id="@+id/text_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我在这儿"
+        android:textColor="@color/color_fad_title"
+        android:textSize="16sp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip"/>
+        <TextView android:id="@+id/text_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="浙江省西湖区文一路财经学院文艺楼4楼"
+        android:textColor="@color/color_fad_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="10dip"/>
+        <TextView android:id="@+id/text_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="浙江卓信信息技术有限公司"
+        android:textColor="@color/color_fad_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="5dip"/>
+        <TextView android:id="@+id/text_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="公交站：益乐路口"
+        android:textColor="@color/color_fad_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="5dip"/>
+        <TextView android:id="@+id/text_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="公交线路：114,25,70"
+        android:textColor="@color/color_fad_content"
+        android:textSize="14sp"
+        android:layout_marginLeft="20dip"
+        android:layout_marginTop="5dip"/>
+    </LinearLayout>
+	<WebView android:id="@+id/web_map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/layout_info"
+        android:layout_below="@id/layout_search"/>
+</RelativeLayout>

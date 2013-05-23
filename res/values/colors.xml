@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="color_white">#ffffffff</color>
+    <color name="color_black">#ff333333</color>
+    <color name="color_green">#ff1f7c07</color>
+    <color name="color_blue">#ff0b89dd</color>
+    <color name="color_gray">#ff333333</color>
+    <color name="color_whitegray">#ffe5e5e5</color>
+    <color name="color_text_title">#fffefefe</color>
+    <color name="color_text_suggest">#ffe08113</color>
+    <color name="color_text_info">#ff666666</color>
+    <color name="color_text_traffic">#ff2371c4</color>
+    <color name="color_text_set">#ff3e3e3e</color>
+    <color name="color_text_setblue">#3695e0</color>
+    <color name="color_back_set">#edeceb</color>
+    <color name="color_text_app">#ff272727</color>
+    <color name="color_text_contentset">#ff4e97d1</color>
+    <color name="color_back_suggest">#fffff68f</color>
+    <color name="color_back_trafficset">#ffefefef</color>
+    <color name="color_text_chart">#ff015377</color>
+    <color name="color_back_speedtest">#ffd2e9f7</color>
+    <color name="color_text_speedtest">#ff6071aa</color>
+    <color name="color_text_phoneaccelerate">#f89a16</color>
+    <color name="color_text_packagedetail">#999999</color>
+    <color name="color_text_packageinfo">#348fd8</color>
+    <color name="color_text_packagebuy">#f29a1d</color>
+    <color name="color_text_packagesure">#c87819</color>
+    <color name="color_text_tipdetail">#04629a</color>
+    <color name="color_text_left">#464646</color>
+    <color name="color_text_leftred">#e60b0b</color>
+    <color name="color_text_leftsuggest">#d52314</color>
+    <color name="color_back_left">#ffdfeaf0</color>
+    <color name="color_bg_pa_button">#d4d4d4</color>
+    <color name="color_fa_text">#7c7c7c</color>
+    <color name="color_fa_down">#9c9a9a</color>
+    <color name="color_fad_title">#2885ce</color>
+    <color name="color_fad_content">#666666</color>
+    <color name="color_back_packagedetail">#edecea</color>
+    <color name="color_aboutus_content">#08687b</color>
+    <color name="thread">#333333</color>
+    <color name="color_aboutus_beijing">#dededd</color>
+    
+    <color name="main_green">#0ab201</color>
+    <color name="main_red">#e50c0c</color>
+    
+    <color name="color_black_gray">#9a9a9a</color>
+    
+    <color name="auto_com_bg">#f4f1ec</color>
+    <color name="color_set">#e7ecf2</color>
+     <color name="color_line">#cacaca</color>
+
+</resources>

@@ -1,0 +1,52 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.junction.android.morepagerframe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:debuggable="true">
+        <activity
+            android:name="com.junction.android.morepagerframe.MainActivity"
+            android:label="@string/app_name" 
+             android:theme="@android:style/Theme.Light.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.junction.android.morepagerframe.SetActivity"
+             android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="com.junction.android.morepagerframe.AppaddActivity"
+             android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="com.junction.android.morepagerframe.NearbyActivity"
+             android:theme="@android:style/Theme.Light.NoTitleBar"
+             android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+    </application>
+<!-- 读写SD卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 获取错略位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 获取精确位置的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 访问网络的权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 获取网络状态的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+</manifest>
